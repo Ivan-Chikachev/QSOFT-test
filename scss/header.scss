@@ -1,0 +1,35 @@
+.header {
+  &__content {
+    max-width: 100%;
+    padding: 0px 60px;
+  }
+}
+
+.menu {
+  &__list {
+    height: 82px;
+    padding: 10px 0;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+      margin: 0 0 0 33px;
+    }
+  }
+
+  &__link {
+
+    a {
+      font-size: 20px;
+      font-weight: 500;
+      color: black;
+      transition: color .1s ease 0s;
+
+      &:hover {
+        color: #ff6464;
+      }
+    }
+
+  }
+}
